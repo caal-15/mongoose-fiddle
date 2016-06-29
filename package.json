@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-fiddle",
+  "version": "0.0.0",
+  "description": "A fiddle for the talk",
+  "main": "bin/www",
+  "bin": {
+    "mongoose-fiddle": "app.js"
+  },
+  "scripts": {
+    "test": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caal-15/mongoose-fiddle.git"
+  },
+  "keywords": [
+    "talk",
+    "fiddle"
+  ],
+  "author": "Carlos Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caal-15/mongoose-fiddle/issues"
+  },
+  "homepage": "https://github.com/caal-15/mongoose-fiddle#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.2"
+  }
+}
